@@ -1,22 +1,45 @@
-import React from "react"
-import { View, Image, Text, ScrollView, SafeAreaView } from "react-native"
-import { styles } from "./styles"
+import { StyleSheet } from "react-native";
+import React from "react";
+import { View, Text, ScrollView, SafeAreaView } from "react-native";
+import { styles } from "./styles";
 
 const WelcomeScreen = () => {
-  return (
-    <SafeAreaView style={styles.container}>
-      <ScrollView contentContainerStyle={styles.scrollView}>
-        <View style={styles.group} />
-        <View style={styles.group}>
-          <Image style={styles.logo} source={require("./logo.png")} />
-          <Text style={styles.text}>
-            Let's build something amazing together!
-          </Text>
+  return <SafeAreaView style={[styles.container, _styles.qubJKkkT]}>
+      <ScrollView contentContainerStyle={styles.scrollView} style={[_styles.ZDZESKGx, _styles.qubJKkkT]}>
+        <View style={[styles.group, _styles.qubJKkkT]} />
+        <View style={[styles.group, _styles.qubJKkkT]}>
+          
+          
         </View>
-        <Text style={styles.footer}>Made with ❤️ by Crowdbotics</Text>
-      </ScrollView>
-    </SafeAreaView>
-  )
-}
+        
+      <Text style={_styles.mJiXUFkA}>{"GEMINI"}</Text></ScrollView>
+    </SafeAreaView>;
+};
 
-export default WelcomeScreen
+export default WelcomeScreen;
+
+const _styles = StyleSheet.create({
+  ZDZESKGx: {
+    borderRadius: 40,
+    backgroundColor: "#000000",
+    borderColor: "#ffffff"
+  },
+  qubJKkkT: {
+    backgroundColor: "#000000"
+  },
+  mJiXUFkA: {
+    width: 357,
+    height: 94,
+    lineHeight: 85,
+    fontSize: 14,
+    borderRadius: 0,
+    textAlign: "center",
+    color: "#ffffff",
+    fontWeight: "700",
+    letterSpacing: 35,
+    position: "absolute",
+    top: 192,
+    left: 20,
+    fontFamily: "Open Sans"
+  }
+});
