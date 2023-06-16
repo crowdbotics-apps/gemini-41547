@@ -38,8 +38,8 @@ const _styles = StyleSheet.create({
     fontWeight: "700",
     letterSpacing: 35,
     position: "absolute",
-    top: 192,
-    left: 20,
+    top: 231,
+    left: 12,
     fontFamily: "Open Sans"
   }
 });
